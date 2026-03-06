@@ -12,8 +12,7 @@ const MONTHS = [
 ]
 
 export default function MonthPicker({ month, year, onMonthChange, onYearChange }: Props) {
-  const currentYear = new Date().getFullYear()
-  const years = Array.from({ length: 5 }, (_, i) => currentYear - 2 + i)
+  const years = [2026, 2027, 2028, 2029, 2030]
 
   return (
     <div className="flex items-center gap-2">
