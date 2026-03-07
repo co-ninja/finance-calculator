@@ -1,6 +1,6 @@
 import { getServerSession } from "next-auth"
 import { NextRequest, NextResponse } from "next/server"
-import { authOptions } from "@/lib/auth"
+import { authOptions } from "@/src/lib/auth"
 
 const DRIVE_UPLOAD = "https://www.googleapis.com/upload/drive/v3/files"
 const DRIVE_FILES = "https://www.googleapis.com/drive/v3/files"

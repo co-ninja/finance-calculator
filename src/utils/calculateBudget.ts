@@ -1,4 +1,4 @@
-import { BudgetInput, BudgetResult } from "@/types/finance"
+import { BudgetInput, BudgetResult } from "@/src/types/finance"
 
 export function calculateBudget(data: BudgetInput): BudgetResult {
 

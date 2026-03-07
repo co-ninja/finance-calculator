@@ -1,4 +1,4 @@
-import { BudgetInput } from "@/types/finance"
+import { BudgetInput } from "@/src/types/finance"
 
 const STORAGE_KEY = "budget_records"
 

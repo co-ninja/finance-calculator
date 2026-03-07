@@ -5,8 +5,8 @@ import { useSession, signIn, signOut } from "next-auth/react"
 import InputField from "./InputField"
 import ResultCard from "./ResultCard"
 import MonthPicker from "./MonthPicker"
-import { calculateBudget } from "@/utils/calculateBudget"
-import { saveBudgetToDrive, loadBudgetFromDrive } from "@/utils/driveStorage"
+import { calculateBudget } from "@/src/utils/calculateBudget"
+import { saveBudgetToDrive, loadBudgetFromDrive } from "@/src/utils/driveStorage"
 
 export default function BudgetCalculator() {
   const { data: session, status } = useSession()
