@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc --noEmit 2>&1)",
+      "Bash(ls /Users/licai/dev/ai-coding-test/ClaudeCodeTest/finance-calculator/.env* 2>/dev/null || echo \"no .env files found\")",
+      "Bash(openssl rand -base64 32)",
+      "Bash(git add app/ lib/ src/ types/ utils/ CLAUDE.md package.json package-lock.json && git status)",
+      "Bash(git restore --staged \"src/components/client_secret_183724210738-7ch27jpivpolhpesn6js5tfjsa74d266.apps.googleusercontent.com.json\")",
+      "Bash(git remote add origin https://github.com/whattocode/finance-calculator.git && git push -u origin main)",
+      "Bash(git push origin main)",
+      "Bash(git remote get-url origin)",
+      "Bash(git remote set-url origin https://github.com/co-ninja/finance-calculator.git && git push origin main)",
+      "Bash(git remote set-url origin https://github.com/whattocode/finance-calculator.git)",
+      "Bash(git remote set-url origin https://github.com/co-ninja/finance-calculator.git && git fetch origin)",
+      "Bash(git remote set-url origin git@github.com:co-ninja/finance-calculator.git && git fetch origin && git push origin main)",
+      "Bash(git pull origin main --no-rebase && git push origin main)",
+      "Bash(git pull origin main --allow-unrelated-histories --no-edit && git push origin main)",
+      "Bash(mkdir -p src/app/api/auth/\\\\[...nextauth\\\\] src/app/api/drive/budget src/lib src/styles src/types src/utils && cp app/favicon.ico src/app/favicon.ico && mv lib/auth.ts src/lib/auth.ts && mv types/finance.ts src/types/finance.ts && mv types/next-auth.d.ts src/types/next-auth.d.ts && mv utils/driveStorage.ts src/utils/driveStorage.ts && mv app/globals.css src/styles/globals.css && echo \"Done\")",
+      "Bash(git add src/app/ src/lib/ src/styles/ src/types/ src/utils/ src/components/BudgetCalculator.tsx && git add -u && git status)",
+      "Bash(git commit -m \"$\\(cat <<'EOF'\nRefactor folder structure to standard src/ layout\n\nMove all source files under src/: app, lib, styles, types, utils, components.\nUpdate all import paths accordingly. Remove leaked Google OAuth credentials file.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push origin refactor)",
+      "Bash(git add ARCHITECTURE.md FEATURES.md GUIDE.md && git commit -m \"$\\(cat <<'EOF'\nAdd project docs: ARCHITECTURE, FEATURES, and beginner GUIDE\n\nDocuments the app structure, feature list, and a step-by-step guide\nfor building Next.js apps with Cursor + Claude for beginners.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}

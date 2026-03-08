@@ -1,0 +1,22 @@
+Project AI Development Rules
+
+This project follows strict architecture and coding rules.
+
+Before generating code, always read:
+
+docs/ARCHITECTURE.md
+docs/PROJECT_CONTEXT.md
+docs/AI_RULES.md
+
+Follow the architecture and rules defined in those documents.
+
+Key requirements:
+
+- Do not create new folders unless necessary
+- Place files in the correct architecture location
+- Keep components small and modular
+- Separate UI from business logic
+- Follow the feature-based architecture
+
+Architecture Source of Truth:
+docs/ARCHITECTURE.md
